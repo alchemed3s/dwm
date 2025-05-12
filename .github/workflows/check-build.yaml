@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y build-essential libx11-dev libxinerama-dev libxft-dev libx11-xcb-dev
+        sudo apt install -y build-essential libx11-dev libxinerama-dev libxft-dev libx11-xcb-dev libxcb1-dev libxrandr-dev libpango1.0-dev libgtk-3-dev libev-dev libcairo2-dev libxft-dev libxcb-res0-dev
     - name: clean
       run: make clean
     - name: make
